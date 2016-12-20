@@ -1,0 +1,12 @@
+.fixedHeader{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 70px;
+	background-color: rgba(22, 16, 54, 0.2);
+}
+
+.initialSection{
+	background: url("../img/BgHeader.jpg") 50% 50% no-repeat;
+	height: 800px;
+}
