@@ -20,36 +20,72 @@
 	
 	<header class="fixedHeader">
 		<nav class="container">
-			<div class="pull-left">
-				<ul class="list-unstyled list-inline">
-					<li><img src="assets/img/logoHeader.png" alt=""></li>
-					<li><span>I’am your tag line</span></li>
-				</ul>
+			<div class="row">
+				<div class="col-md-3">
+					<ul class="logoBox list-unstyled list-inline">
+						<li>
+							<img class="logoBox__image" src="assets/img/logoHeader.png" alt="Logo do site">
+						</li>
+						<li>
+							<span class="logoBox__phrase">I’am your tag line</span>
+						</li>
+					</ul>
+				</div>
+			
+				<div class="col-md-9">
+					<ul class="menuHeader list-unstyled list-inline pull-right">
+						<li>
+							<a class="menuHeader__item" href="#">Home</a>
+						</li>
+						<li>
+							<a class="menuHeader__item" href="#">Features</a>
+						</li>
+						<li>
+							<a class="menuHeader__item" href="#">Works</a>
+						</li>
+						<li>
+							<a class="menuHeader__item" href="#">Team</a>
+						</li>
+						<li>
+							<a class="menuHeader__item" href="#">Contact</a>
+						</li>	
+					</ul>	
+				</div>
 			</div>
-		
-			<ul class="list-unstyled list-inline pull-right">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Features</a></li>
-				<li><a href="#">Works</a></li>
-				<li><a href="#">Team</a></li>
-				<li><a href="#">Contact</a></li>				
-			</ul>	
 		</nav>
 	</header>
 
 	<section class="initialSection">
 		<div class="container">
 			<!-- Carroucel? -->
-			<h1>Meet <span class="">Brandi!</span></h1>
-			<h2><span>/creative</span> one page template</h2>
-			<p class="">We are a team of professionals</p>
+			<div class="initialSection__content">
+				<hgroup class="mainTitle">
+					<h1 class="mainTitle__title">
+						Meet <strong>Brandi!</strong>
+					</h1>
+					<h2 class="mainTitle__subTitle">
+						<span class="mainTitle__featuredWord">
+							/creative
+						</span> one page template
+					</h2>
+					<p class="mainTitle__message">We are a team of professionals</p>
+				</hgroup>
 
-			<ul class="list-unstyled list-inline">
-				<li><a href="#" class=""></a></li>
-				<li><a href="#" class=""></a></li>
-				<li><a href="#" class=""></a></li>
-				<li><a href="#" class=""></a></li>
-			</ul>
+				<ul class="SNWListOne list-unstyled list-inline">
+					<li>
+						<a href="#" class="SNWListOne__Item SNWListOne__Item--Twitter"></a>
+					</li>
+					<li>
+						<a href="#" class="SNWListOne__Item SNWListOne__Item--Facebook"></a>
+					</li>
+					<li>
+						<a href="#" class="SNWListOne__Item SNWListOne__Item--Google"></a>
+					</li>
+					<li>
+						<a href="#" class="SNWListOne__Item SNWListOne__Item--Basket"></a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</section>
 
