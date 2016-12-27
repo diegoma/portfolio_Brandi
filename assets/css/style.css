@@ -192,6 +192,34 @@ ul, li, p{
 	color: #717982;
 }
 
+/* Work section */
+
+.labelList{
+	text-align: center;
+	display: block;
+	margin: 45px auto 35px auto;
+}
+
+.labelList__labelText{
+	display: inline-block;
+	padding: 5px 20px;
+	color: #062033;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+.labelList__labelText:hover{
+	background: #f4f7f9;
+	color: #062033;
+	text-decoration: none;
+}
+
+.labelList__labelText--active, .labelList__labelText--active:hover{
+	background: #0eb493;
+	color: #FFFFFF;
+}
+
 /* Section title */
 
 .sectionTitle{
@@ -221,8 +249,6 @@ ul, li, p{
 	font-weight: bold;
 	color: #384d5c;
 }
-
-
 
 
 
