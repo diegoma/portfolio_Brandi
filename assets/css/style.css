@@ -1,3 +1,10 @@
+/* Global */
+
+ul, li, p{
+	margin: 0 0;
+	padding: 0 0;
+}
+
 /* Fixed header */
 
 .fixedHeader{
@@ -8,16 +15,6 @@
 	line-height: 70px;
 	background-color: rgba(22, 16, 54, 0.2);
 	z-index: 1;
-}
-
-.logoBox, .menuHeader{
-	margin: 0 0;
-	padding: 0 0;
-}
-
-.logoBox li, .menuHeader li{
-	margin: 0 0;
-	padding: 0 0;
 }
 
 .logoBox__image{
@@ -37,11 +34,13 @@
 	font-size: 13px;
 	margin: 0 10px;
 	height: inherit;
+	border-top: 1px solid transparent;
+	transition: border .25s ease-in-out;
 }
 
 .menuHeader__item:hover{
+	border-top: 1px solid #32b0ee;	
 	text-decoration: none;
-	border-top: 1px solid #32b0ee;
 	color: #FFFFFF;
 }
 
@@ -75,7 +74,7 @@
 }
 
 .mainTitle__subTitle{
-	margin: 0 0;
+	margin: 5px 0 0 0;
 	padding: 0 0;
 	font-size: 48px;
 }
@@ -85,47 +84,87 @@
 }
 
 .mainTitle__message{
-	margin: 0 0;
+	margin: 20px 0 0 0;
 	padding: 0 0;	
 }
 
-.mainTitle__message:before{
+.mainTitle__message::before, .mainTitle__message::after{
+	content: " ";
 	display: inline-block;
+	width: 28px;
+	height: 1px;
+	border-top: 1px solid #0feb9e;
+	vertical-align: middle;
 }
 
-.mainTitle__message:after{
-	display: inline-block;
+.mainTitle__message::before{
+	margin-right: 30px;
+} 
+
+.mainTitle__message::after{
+	margin-left: 30px;
 }
 
 .SNWListOne{
+	display: block;
+	text-align: center;
 	margin: 110px auto 50px auto;
 	padding: 0 0;
 }
 
-.SNWListOne__Item{
+.SNWListOne__item{
+	display: inline-block;
 	width: 20px;
 	height: 20px;
-	background: url("") 0 0 no-repeat;
+	margin: 0 5px;
+	opacity: 0.3;	
+	background: url("../img/sprit-SocialNetworkHeader.png") 0 0 no-repeat;
+	transition: opacity .25s ease-in-out;
 }
 
-.SNWListOne__Item--Twitter{
+.SNWListOne__item:hover{
+	opacity: 1;
+}
+
+.SNWListOne__item--Twitter{
 	background-position: 0 0;
 }
 
-.SNWListOne__Item--Facebook{
-	background-position: 0 0;
+.SNWListOne__item--Facebook{
+	background-position: -20px 0;
 }
 
-.SNWListOne__Item--Google{
-	background-position: 0 0;
+.SNWListOne__item--Google{
+	background-position: -40px 0;
 }
 
-.SNWListOne__Item--Basket{
-	background-position: 0 0;
+.SNWListOne__item--Dribble{
+	background-position: -60px 0;
 }
 
+/* Features section */
 
+.sectionTitle{
+	text-align: center;
+}
 
+.sectionTitle__title{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 28px;
+	color: #0eb493;
+	margin: 95px 0 0 0;
+	padding: 0;
+}
+
+.sectionTitle__title::after{
+	content: " ";
+	display: block;
+	width: 230px;
+	height: 15px;
+	margin: 20px auto 25px auto;
+	background: url("../img/ornamentHeart.png") 50% 50% no-repeat;
+}
 
 
 
