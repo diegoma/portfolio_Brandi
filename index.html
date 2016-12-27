@@ -18,7 +18,7 @@
 
 <body>
 	
-	<header class="fixedHeader">
+	<header class="fixedHeader clearfix">
 		<nav class="container">
 			<div class="row">
 				<div class="col-md-3">
@@ -55,7 +55,7 @@
 		</nav>
 	</header>
 
-	<section class="initialSection">
+	<section class="initialSection clearfix">
 		<div class="container">
 			<!-- Carroucel? -->
 			<div class="initialSection__content">
@@ -89,43 +89,52 @@
 		</div>
 	</section>
 
-	<section class="featuresSection">		
-		<header class="sectionHeader">
-			<div class="sectionTitle">
-				<h2 class="sectionTitle__title">Features</h2>
-			</div>
-		</header>		
-
+	<section class="featuresSection clearfix">		
 		<div class="container">
+			<header class="sectionHeader">
+				<div class="sectionTitle">
+					<h2 class="sectionTitle__title">Features</h2>
+				</div>
+			</header>		
+		
 			<ul class="slideFeatures list-unstyled list-inline row">
 				<li  class="col-md-4">
 					<div class="slideFeatures__item">
-						<h3 class="slideFeatures__item__title">
-							Branding
-						</h3>
-						<p class="slideFeatures__item__text">
-							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-						</p>
+						<span class="slideFeatures__item__icon slideFeatures__item__icon--feather"></span>
+						<div class="slideFeatures__item__infos">
+							<h3 class="slideFeatures__item__title">
+								Branding
+							</h3>
+							<p class="slideFeatures__item__text">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+							</p>
+						</div>
 					</div>
 				</li>
 				<li class="col-md-4">
 					<div class="slideFeatures__item">
-						<h3 class="slideFeatures__item__title">
-							Development
-						</h3>
-						<p class="slideFeatures__item__text">
-							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-						</p>
+						<span class="slideFeatures__item__icon slideFeatures__item__icon--pencil"></span>
+						<div class="slideFeatures__item__infos">
+							<h3 class="slideFeatures__item__title">
+								Development
+							</h3>
+							<p class="slideFeatures__item__text">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+							</p>
+						</div>
 					</div>
 				</li>
 				<li class="col-md-4">
 					<div class="slideFeatures__item">
-						<h3 class="slideFeatures__item__title">
-							Consulting
-						</h3>
-						<p class="slideFeatures__item__text">
-							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-						</p>
+						<span class="slideFeatures__item__icon slideFeatures__item__icon--megaphone"></span>
+						<div class="slideFeatures__item__infos">
+							<h3 class="slideFeatures__item__title">
+								Consulting
+							</h3>
+							<p class="slideFeatures__item__text">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+							</p>
+						</div>
 					</div>
 				</li>
 			</ul>
@@ -134,8 +143,8 @@
 
 	<section>
 		<div class="container">
-			<header class="sectionHeader">				
-				<div class="sectionTitle">
+			<header class="sectionHeader row">				
+				<div class="sectionTitle col-md-10 col-md-offset-1">
 					<h2 class="sectionTitle__title">Works</h2>
 					<p class="sectionTitle__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
 				</div>
@@ -169,8 +178,8 @@
 
 	<section>
 		<div class="container">
-			<header class="sectionHeader">				
-				<div class="sectionTitle">
+			<header class="sectionHeader row">				
+				<div class="sectionTitle col-md-10 col-md-offset-1">
 					<h2 class="sectionTitle__title">Meet our team</h2>
 					<p class="sectionTitle__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
 				</div>
@@ -284,8 +293,8 @@
 
 	<section>
 		<div class="container">
-			<header class="sectionHeader">				
-				<div class="sectionTitle">
+			<header class="sectionHeader row">				
+				<div class="sectionTitle col-md-10 col-md-offset-1">
 					<h2 class="sectionTitle__title">Let's Discuss</h2>
 					<p class="sectionTitle__description">
 						Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
