@@ -430,6 +430,14 @@ ul, li, p{
 }
 
 
+/* Footer section */
+
+.footerSection{
+	border-top: 5px solid #062033;
+	background: #1ea78d;
+}
+
+
 /* Section title */
 
 .sectionTitle{
