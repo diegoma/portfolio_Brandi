@@ -372,7 +372,7 @@
 		</div>
 	</section>
 
-	<section>
+	<section class="contactSection">
 		<div class="container">
 			<header class="sectionHeader row">				
 				<div class="sectionTitle col-md-10 col-md-offset-1">
@@ -383,43 +383,70 @@
 				</div>
 			</header>
 
-			<div class="row">
-				<div class="col-md-3">
-					<h3>Cras at ultrices erat, sed vulputate!</h3>
+			<div class="row contactSection__content">
+				<div class="col-md-3 contactInfo">
+					<h3 class="contactInfo__title">Cras at ultrices erat, sed vulputate!</h3>
 					<p>2345 Setwant natrer, 1234, Washington. United States.</p>
 					<p>(401) 1234 567</p>
 					<p>hello@brandi.com</p>
 					<p>ww.brandi.com</p>					
 				</div>
-
-				<div class="col-md-8">
-					<h2>Say hello!</h2>
-					<form action="">
-						<div>
-							<div>
-								<label for=""></label>
-								<input type="text" id="" />
-							</div>
-							<div>
-								<label for=""></label>
-								<input type="text" id="" />
-							</div>
-							<div>
-								<label for=""></label>
-								<input type="text" id="" />
-							</div>
-						</div>
-						<input type="submit" value="Send message" />
-					</form>
-				</div>
+					
+				<form class="col-md-8 contactForm" action="">
+					<h2 class="contactForm__title">Say hello!</h2>
+					<div class="contactForm__inputText formSize-md-50">
+						<label for="">
+							Name
+							<input type="text" id="" />
+						</label>
+					</div>
+					<div class="contactForm__inputText formSize-md-50">
+						<label for="">
+							Email
+							<input type="text" id="" />
+						</label>
+					</div>
+					<div class="contactForm__inputText">
+						<label for="">
+							Message
+							<input type="text" id="" />
+						</label>
+					</div>
+					<div class="contactForm__inputSubmit pull-right">
+						<label for="">
+							<img src="assets/img/letterIcon.png" alt="letter icon">
+							<input type="submit" value="Send message" />
+						</label>
+					</div>
+				</form>
 
 				<div class="col-md-1">
-					<ul class="">
-						<li><a href="" class=""></a></li>
-						<li><a href="" class=""></a></li>
-						<li><a href="" class=""></a></li>
-						<li><a href="" class=""></a></li>
-						<li><a href="" class=""></a></li>
+					<ul class="SNWListThree list-unstyled">
+						<li class="SNWListThree__item__content">
+							<a href="" class="SNWListThree__item">
+								<img src="assets/img/bahanceIcon.png" alt="">
+							</a>
+						</li>
+						<li class="SNWListThree__item__content">
+							<a href="" class="SNWListThree__item">
+								<img src="assets/img/twitterIcon.png" alt="">
+							</a>
+						</li>
+						<li class="SNWListThree__item__content">
+							<a href="" class="SNWListThree__item">
+								<img src="assets/img/dribbleIcon.png" alt="">
+							</a>
+						</li>
+						<li class="SNWListThree__item__content">
+							<a href="" class="SNWListThree__item">
+								<img src="assets/img/forrstIcon.png" alt="">
+							</a>
+						</li>
+						<li class="SNWListThree__item__content">
+							<a href="" class="SNWListThree__item">
+								<img src="assets/img/googleIcon.png" alt="">
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -431,7 +458,7 @@
 		</div>
 	</section>
 
-	<footer>
+	<footer class="footerSection">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
@@ -457,8 +484,8 @@
 						<li><a href="">Freebiescurve</a></li>
 						<li><a href="">Themeforest</a></li>
 						<li><a href="">Microsoft</a></li>
-						<li><a href="">Google</a></li>						
-						<li><a href="">Yahoo</a></li>						
+						<li><a href="">Google</a></li>					
+						<li><a href="">Yahoo</a></li>					
 					</ul>
 				</div>
 				<div class="col-md-3">
