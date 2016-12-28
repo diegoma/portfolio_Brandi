@@ -396,6 +396,35 @@ ul, li, p{
 	background-position: -80px 0;
 }
 
+/* Facts section */
+
+.factsSection{
+	background: url("../img/BgNightCity70.jpg") 50% 50% no-repeat;
+	height: 600px;
+}
+
+
+.factsList{
+
+}
+
+.factsList__item{
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	line-height: 1;
+}
+
+.factsList__item__number{	
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-size: 60px;
+}
+
+.factsList__item__description{
+	font-size: 18px;
+}
+
 /* Section title */
 
 .sectionTitle{
@@ -420,13 +449,15 @@ ul, li, p{
 	background: url("../img/ornamentHeart.png") 50% 50% no-repeat;
 }
 
+.sectionTitle__title--darkTheme::after{
+	background: url("../img/ornamentHeartWhite.png") 50% 50% no-repeat;
+}
+
 .sectionTitle__description{
 	font-size: 18px;
 	font-weight: bold;
 	color: #384d5c;
 }
-
-
 
 
 
