@@ -9,11 +9,12 @@
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-	<!-- Styles -->
+	<!-- CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
 
 	<!-- Js Libs  -->
-	<script src=""></script>
+	<script src="assets/js/jquery-3.1.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -96,48 +97,101 @@
 					<h2 class="sectionTitle__title">Features</h2>
 				</div>
 			</header>		
-		
-			<ul class="slideFeatures list-unstyled list-inline row">
-				<li  class="col-md-4">
-					<div class="slideFeatures__item">
-						<span class="slideFeatures__item__icon slideFeatures__item__icon--feather"></span>
-						<div class="slideFeatures__item__infos">
-							<h3 class="slideFeatures__item__title">
-								Branding
-							</h3>
-							<p class="slideFeatures__item__text">
-								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-							</p>
-						</div>
-					</div>
-				</li>
-				<li class="col-md-4">
-					<div class="slideFeatures__item">
-						<span class="slideFeatures__item__icon slideFeatures__item__icon--pencil"></span>
-						<div class="slideFeatures__item__infos">
-							<h3 class="slideFeatures__item__title">
-								Development
-							</h3>
-							<p class="slideFeatures__item__text">
-								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-							</p>
-						</div>
-					</div>
-				</li>
-				<li class="col-md-4">
-					<div class="slideFeatures__item">
-						<span class="slideFeatures__item__icon slideFeatures__item__icon--megaphone"></span>
-						<div class="slideFeatures__item__infos">
-							<h3 class="slideFeatures__item__title">
-								Consulting
-							</h3>
-							<p class="slideFeatures__item__text">
-								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-							</p>
-						</div>
-					</div>
-				</li>
-			</ul>
+
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<ul class="slideFeatures list-unstyled list-inline row item active">
+						<li  class="col-md-4">
+							<div class="slideFeatures__item">
+								<span class="slideFeatures__item__icon slideFeatures__item__icon--feather"></span>
+								<div class="slideFeatures__item__infos">
+									<h3 class="slideFeatures__item__title">
+										Branding
+									</h3>
+									<p class="slideFeatures__item__text">
+										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-4">
+							<div class="slideFeatures__item">
+								<span class="slideFeatures__item__icon slideFeatures__item__icon--pencil"></span>
+								<div class="slideFeatures__item__infos">
+									<h3 class="slideFeatures__item__title">
+										Development
+									</h3>
+									<p class="slideFeatures__item__text">
+										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-4">
+							<div class="slideFeatures__item">
+								<span class="slideFeatures__item__icon slideFeatures__item__icon--megaphone"></span>
+								<div class="slideFeatures__item__infos">
+									<h3 class="slideFeatures__item__title">
+										Consulting
+									</h3>
+									<p class="slideFeatures__item__text">
+										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+									</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+
+					<ul class="slideFeatures list-unstyled list-inline row item">
+						<li  class="col-md-4">
+							<div class="slideFeatures__item">
+								<span class="slideFeatures__item__icon slideFeatures__item__icon--feather"></span>
+								<div class="slideFeatures__item__infos">
+									<h3 class="slideFeatures__item__title">
+										Branding
+									</h3>
+									<p class="slideFeatures__item__text">
+										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+									</p>
+								</div>
+							</div>
+						</li>
+						<li  class="col-md-4">
+							<div class="slideFeatures__item">
+								<span class="slideFeatures__item__icon slideFeatures__item__icon--feather"></span>
+								<div class="slideFeatures__item__infos">
+									<h3 class="slideFeatures__item__title">
+										Branding
+									</h3>
+									<p class="slideFeatures__item__text">
+										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+									</p>
+								</div>
+							</div>
+						</li>	
+						<li  class="col-md-4">
+							<div class="slideFeatures__item">
+								<span class="slideFeatures__item__icon slideFeatures__item__icon--feather"></span>
+								<div class="slideFeatures__item__infos">
+									<h3 class="slideFeatures__item__title">
+										Branding
+									</h3>
+									<p class="slideFeatures__item__text">
+										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+									</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -245,97 +299,199 @@
 					<p class="sectionTitle__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
 				</div>
 			</header>
-				 
-			<ul class="slideTeam list-unstyled row">
-				<li class="col-md-3 slideTeam__content">
-					<div class="slideTeam__item">
-						<div class="slideTeam__item__content">
-							<h3 class="slideTeam__item__title">Nemo enim ipsam voluptatem quia voluptas </h3>
-							<p class="slideTeam__item__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-							<ul class="SNWListTwo SNWListTwo--alignBottom list-unstyled">
-								<li class="SNWListTwo__item__content">
-									<a class="SNWListTwo__item SNWListTwo__item--twitter" href=""></a>
-								</li>
-								<li class="SNWListTwo__item__content">
-									<a class="SNWListTwo__item SNWListTwo__item--facebook" href=""></a>
-								</li>
-								<li class="SNWListTwo__item__content">
-									<a class="SNWListTwo__item SNWListTwo__item--google" href=""></a>
-								</li>
-							</ul>
-						</div>
-						<img src="assets/img/employer01.jpg" alt="employer">
-					</div>	
-					<h3 class="slideTeam__content__title">John Filmr Doe</h3>
-					<p class="slideTeam__content__description">Managing Director</p>					
-				</li>
-				<li class="col-md-3 slideTeam__content">
-					<div class="slideTeam__item">
-						<div class="slideTeam__item__content">
-							<h3 class="slideTeam__item__title">Nemo enim ipsam voluptatem quia voluptas </h3>
-							<p class="slideTeam__item__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-							<ul class="SNWListTwo SNWListTwo--alignBottom list-unstyled">
-								<li class="SNWListTwo__item__content">
-									<a class="SNWListTwo__item SNWListTwo__item--twitter" href=""></a>
-								</li>
-								<li class="SNWListTwo__item__content">
-									<a class="SNWListTwo__item SNWListTwo__item--facebook" href=""></a>
-								</li>
-								<li class="SNWListTwo__item__content">
-									<a class="SNWListTwo__item SNWListTwo__item--google" href=""></a>
-								</li>
-							</ul>
-						</div>
-						<img src="assets/img/employer02.jpg" alt="employer">
-					</div>	
-					<h3 class="slideTeam__content__title">John Filmr Doe</h3>
-					<p class="slideTeam__content__description">Managing Director</p>					
-				</li>
-				<li class="col-md-3 slideTeam__content">
-					<div class="slideTeam__item">
-						<div class="slideTeam__item__content">
-							<h3 class="slideTeam__item__title">Nemo enim ipsam voluptatem quia voluptas </h3>
-							<p class="slideTeam__item__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-							<ul class="SNWListTwo SNWListTwo--alignBottom list-unstyled">
-								<li class="SNWListTwo__item__content">
-									<a class="SNWListTwo__item SNWListTwo__item--twitter" href=""></a>
-								</li>
-								<li class="SNWListTwo__item__content">
-									<a class="SNWListTwo__item SNWListTwo__item--facebook" href=""></a>
-								</li>
-								<li class="SNWListTwo__item__content">
-									<a class="SNWListTwo__item SNWListTwo__item--google" href=""></a>
-								</li>
-							</ul>
-						</div>
-						<img src="assets/img/employer03.jpg" alt="employer">
-					</div>	
-					<h3 class="slideTeam__content__title">John Filmr Doe</h3>
-					<p class="slideTeam__content__description">Managing Director</p>					
-				</li>
-				<li class="col-md-3 slideTeam__content">
-					<div class="slideTeam__item">
-						<div class="slideTeam__item__content">
-							<h3 class="slideTeam__item__title">Nemo enim ipsam voluptatem quia voluptas </h3>
-							<p class="slideTeam__item__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-							<ul class="SNWListTwo SNWListTwo--alignBottom list-unstyled">
-								<li class="SNWListTwo__item__content">
-									<a class="SNWListTwo__item SNWListTwo__item--twitter" href=""></a>
-								</li>
-								<li class="SNWListTwo__item__content">
-									<a class="SNWListTwo__item SNWListTwo__item--facebook" href=""></a>
-								</li>
-								<li class="SNWListTwo__item__content">
-									<a class="SNWListTwo__item SNWListTwo__item--google" href=""></a>
-								</li>
-							</ul>
-						</div>
-						<img src="assets/img/employer04.jpg" alt="employer">
-					</div>	
-					<h3 class="slideTeam__content__title">John Filmr Doe</h3>
-					<p class="slideTeam__content__description">Managing Director</p>					
-				</li>				
-			</ul>
+
+			<div id="carousel-generic" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-generic" data-slide-to="1"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">				 
+					<ul class="slideTeam list-unstyled row item active">
+						<li class="col-md-3 slideTeam__content">
+							<div class="slideTeam__item">
+								<div class="slideTeam__item__content">
+									<h3 class="slideTeam__item__title">Nemo enim ipsam voluptatem quia voluptas </h3>
+									<p class="slideTeam__item__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+									<ul class="SNWListTwo SNWListTwo--alignBottom list-unstyled">
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--twitter" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--facebook" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--google" href=""></a>
+										</li>
+									</ul>
+								</div>
+								<img src="assets/img/employer01.jpg" alt="employer">
+							</div>	
+							<h3 class="slideTeam__content__title">John Filmr Doe</h3>
+							<p class="slideTeam__content__description">Managing Director</p>					
+						</li>
+						<li class="col-md-3 slideTeam__content">
+							<div class="slideTeam__item">
+								<div class="slideTeam__item__content">
+									<h3 class="slideTeam__item__title">Nemo enim ipsam voluptatem quia voluptas </h3>
+									<p class="slideTeam__item__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+									<ul class="SNWListTwo SNWListTwo--alignBottom list-unstyled">
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--twitter" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--facebook" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--google" href=""></a>
+										</li>
+									</ul>
+								</div>
+								<img src="assets/img/employer02.jpg" alt="employer">
+							</div>	
+							<h3 class="slideTeam__content__title">John Filmr Doe</h3>
+							<p class="slideTeam__content__description">Managing Director</p>					
+						</li>
+						<li class="col-md-3 slideTeam__content">
+							<div class="slideTeam__item">
+								<div class="slideTeam__item__content">
+									<h3 class="slideTeam__item__title">Nemo enim ipsam voluptatem quia voluptas </h3>
+									<p class="slideTeam__item__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+									<ul class="SNWListTwo SNWListTwo--alignBottom list-unstyled">
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--twitter" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--facebook" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--google" href=""></a>
+										</li>
+									</ul>
+								</div>
+								<img src="assets/img/employer03.jpg" alt="employer">
+							</div>	
+							<h3 class="slideTeam__content__title">John Filmr Doe</h3>
+							<p class="slideTeam__content__description">Managing Director</p>					
+						</li>
+						<li class="col-md-3 slideTeam__content">
+							<div class="slideTeam__item">
+								<div class="slideTeam__item__content">
+									<h3 class="slideTeam__item__title">Nemo enim ipsam voluptatem quia voluptas </h3>
+									<p class="slideTeam__item__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+									<ul class="SNWListTwo SNWListTwo--alignBottom list-unstyled">
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--twitter" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--facebook" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--google" href=""></a>
+										</li>
+									</ul>
+								</div>
+								<img src="assets/img/employer04.jpg" alt="employer">
+							</div>	
+							<h3 class="slideTeam__content__title">John Filmr Doe</h3>
+							<p class="slideTeam__content__description">Managing Director</p>					
+						</li>				
+					</ul>
+
+					<ul class="slideTeam list-unstyled row item">
+						<li class="col-md-3 slideTeam__content">
+							<div class="slideTeam__item">
+								<div class="slideTeam__item__content">
+									<h3 class="slideTeam__item__title">Nemo enim ipsam voluptatem quia voluptas </h3>
+									<p class="slideTeam__item__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+									<ul class="SNWListTwo SNWListTwo--alignBottom list-unstyled">
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--twitter" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--facebook" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--google" href=""></a>
+										</li>
+									</ul>
+								</div>
+								<img src="assets/img/employer02.jpg" alt="employer">
+							</div>	
+							<h3 class="slideTeam__content__title">John Filmr Doe</h3>
+							<p class="slideTeam__content__description">Managing Director</p>					
+						</li>
+						<li class="col-md-3 slideTeam__content">
+							<div class="slideTeam__item">
+								<div class="slideTeam__item__content">
+									<h3 class="slideTeam__item__title">Nemo enim ipsam voluptatem quia voluptas </h3>
+									<p class="slideTeam__item__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+									<ul class="SNWListTwo SNWListTwo--alignBottom list-unstyled">
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--twitter" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--facebook" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--google" href=""></a>
+										</li>
+									</ul>
+								</div>
+								<img src="assets/img/employer02.jpg" alt="employer">
+							</div>	
+							<h3 class="slideTeam__content__title">John Filmr Doe</h3>
+							<p class="slideTeam__content__description">Managing Director</p>					
+						</li>
+						<li class="col-md-3 slideTeam__content">
+							<div class="slideTeam__item">
+								<div class="slideTeam__item__content">
+									<h3 class="slideTeam__item__title">Nemo enim ipsam voluptatem quia voluptas </h3>
+									<p class="slideTeam__item__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+									<ul class="SNWListTwo SNWListTwo--alignBottom list-unstyled">
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--twitter" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--facebook" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--google" href=""></a>
+										</li>
+									</ul>
+								</div>
+								<img src="assets/img/employer02.jpg" alt="employer">
+							</div>	
+							<h3 class="slideTeam__content__title">John Filmr Doe</h3>
+							<p class="slideTeam__content__description">Managing Director</p>					
+						</li>
+						<li class="col-md-3 slideTeam__content">
+							<div class="slideTeam__item">
+								<div class="slideTeam__item__content">
+									<h3 class="slideTeam__item__title">Nemo enim ipsam voluptatem quia voluptas </h3>
+									<p class="slideTeam__item__description">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+									<ul class="SNWListTwo SNWListTwo--alignBottom list-unstyled">
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--twitter" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--facebook" href=""></a>
+										</li>
+										<li class="SNWListTwo__item__content">
+											<a class="SNWListTwo__item SNWListTwo__item--google" href=""></a>
+										</li>
+									</ul>
+								</div>
+								<img src="assets/img/employer02.jpg" alt="employer">
+							</div>	
+							<h3 class="slideTeam__content__title">John Filmr Doe</h3>
+							<p class="slideTeam__content__description">Managing Director</p>					
+						</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</section>
 

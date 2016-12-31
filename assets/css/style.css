@@ -687,10 +687,29 @@ ul, li, p, h1, h2, h3, h4, h5, h6{
 }
 
 
+/* mudar no futuro */
 
+.carousel-inner{
+	padding-bottom: 150px;
+}
 
+.carousel-indicators{
+	bottom: 75px;
+	margin-bottom: 0;
+	padding: 0;
+}
 
+.carousel-indicators li{
+	border: 1px solid #c7ced3;
+	margin: 0;
+}
 
+.carousel-indicators li.active{
+	width: 10px;
+	height: 10px;
+	border: none;
+	background-color: #062033;
+}
 
 
 
